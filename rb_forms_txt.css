@@ -26,10 +26,30 @@
 /* Spinner Styles */
 
 
-
+ 
 /* Form Button Styles */
 
 
 
 /* Validation Styles */
 
+
+imput:focus, selct:focus, textarea:focus {
+   background-color: rgb (220, 255, 220) ;
+}
+
+imput#name:focus:valid,
+imput#zip:focus:valid,
+input#phone:focus:valid,
+imput#mail:focus:valid {
+   background: rgb (220, 255, 220) url(rb_valid.png) bottom
+      right/contain no repeat;
+}
+
+imput#name:focus:invalid,
+imput#zip:focus:invalid,
+input#phone:focus:invalid,
+imput#mail:focus:invalid {
+   background: rgb (255, 232, 233) url(rb_invalid.png) bottom
+      right/contain no repeat;
+}
